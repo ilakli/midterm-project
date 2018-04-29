@@ -784,7 +784,7 @@ ul {
     margin-left: 14px;
 }
 
-.stories {
+.stories, .reminders, .todays-games, .language-palette {
     margin-top: 12px;
     padding-left: 12px;
     background-color: #fff;
@@ -885,4 +885,105 @@ ul {
 .see-more-stories a:visited{
     color: blue;
     text-decoration: none;
+}
+
+.reminders {
+    height: 30px;
+}
+
+.event-reminder {
+    background-image: url(https://goo.gl/XvXuAb);
+    background-size: 26px 278px;
+    background-repeat: no-repeat;
+    float: left;
+    height: 16px;
+    width: 16px;
+    background-position: 0 -142px;
+    margin-top: 7px;
+}
+
+#event1 {
+    font-weight: 600;
+    color: #365899;
+    font-size: 13px;
+    margin-top: 7px;
+    margin-left: 7px;
+    float: left;
+}
+
+.event-status {
+    color: #90949c;
+    font-size: 13px;
+    margin-top: 7px;
+    margin-left: 3px;
+    float: left;
+}
+
+.todays-games {
+    height: 130px;
+}
+
+.facebook-credentials {
+    color: #616770;
+    padding: 0 12px 2px;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+.facebook-credentials a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.facebook-credentials a:visited {
+    color: inherit;
+}
+
+.language-palette {
+    height: 45px;
+}
+
+.add-button {
+    line-height: 26px;
+    padding: 0 10px;
+    background-color: #f6f7f9;
+    border-color: #ced0d4;
+    color: #4b4f56;
+    border: 1px solid;
+    border-radius: 2px;
+    box-sizing: content-box;
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    position: relative;
+    text-decoration: none;
+    float: right;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+
+.languages {
+    float: left;
+    font-size: 13px;
+    width: 80%;
+    margin-top: 6px;
+}
+
+.languages a {
+    text-decoration: none;
+    color: blue;
+}
+
+.languages a:visited {
+    color: blue;
+}
+
+.plus-button {
+    background-image: url(https://goo.gl/wxqdQL);
+    background-size: 54px 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-position: 0 -286px;
 }
