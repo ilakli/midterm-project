@@ -3,6 +3,8 @@ body, html {
     padding: 0px;
     width: 100%;
     height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #E9EBEE;
 }
 
 #bluebar {
@@ -48,7 +50,7 @@ body, html {
 
 #logo-holder {
     padding: 9px;
-    margin-left: 8.5%;
+    margin-left: 115px;
     float: left;
 }
 
@@ -206,4 +208,195 @@ body, html {
 #global-container {
     width: 100%;
     height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#left-column {
+    width: 20%;
+    height: 100%;
+    margin-left: 125px;
+    padding-top: 12px;
+}
+
+#user-credentials {
+    padding-bottom: 12px;
+}
+
+#user-credentials .user-photo{
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+
+.li-text {
+	padding-left: 5px;
+    padding-bottom: 1px;
+    padding-top: 2.5px;
+    float: left;
+    font-size: 13px;
+}
+
+.li-item {
+    clear: both;
+    width: 185px;
+    height: 21px;
+    padding: 4px 9px 4px 4px;
+    word-wrap: break-word;
+}
+
+.li-item-active {
+    clear: both;
+    width: 185px;
+    height: 21px;
+    font-weight: bold;
+    background: #F6F7F9;
+    padding: 4px 9px 4px 4px;
+    border-radius: 1.5px;
+    word-wrap: break-word;
+}
+
+.li-images {
+    background-image: url(https://goo.gl/Dq9n4f);
+    background-size: 36px 1996px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+
+#news-feed-image {
+    background-position: 0 -1364px;
+    clear: none;
+    float: left;
+}
+
+#messenger-image {
+    background-position: 0 -1034px;
+    clear: none;
+    float: left;
+}
+
+.home-side-nav h4 {
+    font-size: 13px;
+    color: #616770;
+    line-height: 17px;
+    margin: -2px 0 -1px;
+    font-weight: 600;
+    -webkit-margin-before: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    padding: 4px 9px 4px 4px;
+}
+
+#macs-group-image {
+    background-position: 0 -1276px;
+    clear: none;
+    float: left;
+}
+
+.li-images-non-sprite {
+    height: 20px;
+    width: 20px;
+}
+
+#basketball-image, #chess-image {
+    clear: none;
+    float: left;
+    border-radius: 50%;
+}
+
+#events-image {
+    background-image: url(https://goo.gl/WJBxbL);
+    background-size: 22px 172px;
+    background-repeat: no-repeat;
+    background-position: 0 -22px;
+    height: 20px;
+    width: 20px;
+    clear: none;
+    float: left;
+}
+
+#groups-image {
+    clear: none;
+    float: left;
+    background-position: 0 -1276px;
+}
+
+#pages-image {
+    clear: none;
+    float: left;
+    background-position: 0 -1474px;
+}
+
+#friend-lists-image {
+    clear: none;
+    float: left;
+    background-position: 0 -1386px;
+}
+
+#discover-people-image {
+    clear: none;
+    float: left;
+    background-position: 0 -1540px;
+}
+
+#saved-image {
+    clear: none;
+    float: left;
+    background-position: 0 -1606px;
+}
+
+#this-day-image {
+    clear: none;
+    float: left;
+    background-position: 0 -1452px;
+}
+
+#pages-feed-image {
+    clear: none;
+    float: left;
+    background-position: 0 -1496px;
+}
+
+#photos-image {
+    clear: none;
+    float: left;
+    background-position: 0 -1562px;
+}
+
+#games-image {
+    clear: none;
+    float: left;
+    background-position: 0 -1232px;
+}
+
+#see-more-image {
+    clear: none;
+    float: left;
+    background-position: 0 -1942px;
+    height: 16px;
+    width: 16px;
+    vertical-align: bottom;
+}
+
+.li-text a {
+    text-decoration: none;
+}
+
+.li-item a:link {
+    color: blue;
+}
+
+.li-item a:visited {
+    color: blue;
+}
+
+.create-navigation a{
+    font-size: 12px;
+    text-decoration: none;
 }
